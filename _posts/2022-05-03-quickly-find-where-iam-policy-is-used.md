@@ -1,3 +1,8 @@
+---
+title: "Quickly Find Where an AWS IAM Policy is Used"
+date: 2022-05-03
+---
+
 Sometimes you need to know all of the places an IAM policy is being used in your AWS account. Maybe you are making a change to that policy and you want to know the scope of the impact. Other times you may need to replace the policy with a new policy. Regardless of the need, pointing and clicking your way through the AWS console is not the most efficient way you want to accomplish this. Here is a perfect opportunity to use the AWS CLI.
 
 The AWS Command Line Interface is a fast and simple way to programmatically get info and take action on your AWS account in a lightweight manner. Although your can also use a number of language specific SDKs to accomplish the same thing, the AWS CLI does not require the additional overhead of some programming languages. Also, the AWS CLI is a good choice for one-time tasks that need a quick turn around. 
